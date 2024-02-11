@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<meta name="csrf-token" content="lElQTcmHV82yu8Q69LLIIIn4F0fHoBFjxMm6Rodc">
+<style>
+
+    [dir="rtl"] .dash-sidebar {
+        left: auto !important;
+    }
+
+    [dir="rtl"] .dash-header {
+        left: 0;
+        right: 280px;
+    }
+
+    [dir="rtl"] .dash-header:not(.transprent-bg) .header-wrapper {
+        padding: 0 0 0 30px;
+    }
+
+    [dir="rtl"] .dash-header:not(.transprent-bg):not(.dash-mob-header)~.dash-container {
+        margin-left: 0px;
+    }
+
+    [dir="rtl"] .me-auto.dash-mob-drp {
+        /* margin-right: 10px !important; */
+    }
+
+    [dir="rtl"] .me-auto {
+        margin-left: 10px !important;
+    }
+
+
+    [dir="rtl"] .header-wrapper .ms-auto {
+        margin-left: 0 !important;
+    }
+
+    [dir="rtl"] .dash-header {
+        left: 0 !important;
+        right: 0px !important;
+    }
+
+    [dir="rtl"] .list-group-flush>.list-group-item .float-end {
+        float: left !important;
+    }
+    /* start loader style */
+    .loading {
+            z-index: 1027;
+            position: fixed;
+            top: 0;
+            left:0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+        }
+        .loader {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            animation: rotate 0.5s linear infinite
+      }
+      .no-scroll {
+            height: 100%;
+            overflow: hidden;
+        }
+      .loader::before , .loader::after {
+        content: "";
+        box-sizing: border-box;
+        position: absolute;
+        inset: 0px;
+        border-radius: 50%;
+        border: 5px solid #008ECC;
+        animation: prixClipFix 2s linear infinite ;
+      }
+      .loader::after{
+        inset: 8px;
+        transform: rotate3d(90, 90, 0, 180deg );
+        border-color: #fff;
+      }
+
+      @keyframes rotate {
+        0%   {transform: rotate(0deg)}
+        100%   {transform: rotate(360deg)}
+      }
+
+      @keyframes prixClipFix {
+          0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+          50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+          75%, 100%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+      }
+    /* start loader style */
+</style>
+<style>
+    .salla-addon__duedate {
+        background: rgba(115 129 169 / 10%);
+        border: 1px solid rgba(191, 176, 245, 0.568);
+        border-radius: 8px
+    }
+
+    .salla-addon__duedate__head {
+        background: rgba(146 152 206 / 15%);
+        border-bottom: 1px solid rgba(192, 186, 243, 0.6);
+        font-size: 14px;
+        padding: 10px 15px;
+        text-align: center
+    }
+
+    .salla-addon__duedate__body {
+        padding: 10px 15px;
+        text-align: center
+    }
+
+    .salla-addon__duedate b {
+        color: #004d5a
+    }
+
+
+
+
+    .btn-tiffany {
+        color: #ffffff !important;
+        background-color: #008ECC !important;
+        border-color: #008ECC !important;
+    }
+
+    .btn-tiffany:hover,
+    .btn-tiffany:active,
+    .btn-tiffany:focus {
+        background-color: #0079ad !important;
+        border-color: #0072a3 !important
+    }
+
+    .font-30 {
+        font-size: 30px !important;
+    }
+
+    .font-16 {
+        font-size: 16px !important;
+    }
+
+    .btn--outlined.primary {
+        border-color: #008ECC !important
+    }
+
+    .btn--outlined.primary,
+    .btn--outlined.primary *{
+        color: #004d5a !important
+    }
+</style>
+<head>
+    <title>
+        Store Online Alashwl -     لوحة التحكم
+    </title>
+
+    <meta charset="utf-8" dir="rtl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Doing - Online Store Builder" />
+    <meta name="keywords" content="Doing" />
+    <meta name="author" content="Doin9|develope" />
+    <meta name="csrf-token" content="lElQTcmHV82yu8Q69LLIIIn4F0fHoBFjxMm6Rodc">
+
+    <!-- Favicon icon -->
+
+    <link rel="icon" href="assets/img/doino.png" type="image/x-icon" />
+
+
+    <!-- font css -->
+    <link rel="stylesheet" href="assets/fonts/tabler-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/feather.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome.css">
+    <link rel="stylesheet" href="assets/fonts/material.css">
+    <link rel="stylesheet" href="custom/libs/animate.css/animate.min.css">
+    <link rel="stylesheet" href="custom/libs/select2/dist/css/select2.min.css">
+     <link rel="stylesheet" href="custom/libs/@fortawesome/fontawesome-free/css/all.min.css">
+     <link rel="stylesheet" href="custom/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+     <link rel="stylesheet" href="custom/libs/summernote/summernote-bs4.css">
+     <link rel="stylesheet" href="assets/css/plugins/bootstrap-switch-button.min.css">
+     
+      <link rel="stylesheet" href="assets/css/plugins/wcolpick.css"/>
+
+     
+     
+    <!-- vendor css -->
+    
+    <link rel="stylesheet" href="assets/css/customizer.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"/>
+        <!-- Bootstrap-Iconpicker -->
+        
+        <link rel="stylesheet" href="assets/plugins/bootstrap-iconpicker/css/bootstrap-iconpicker.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="custom/css/custom.css">
+    <link rel="stylesheet" href="assets/css/plugins/style.css">
+            <link rel="stylesheet" href="assets/css/style-rtl.css" id="main-style-link">
+                <link rel="stylesheet" href="assets/css/style.css" id="main-style-link">
+    
+
+    
+
+    <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
+    <script>
+
+        // Enable pusher logging - don't include this in production
+        Pusher.logToConsole = false;
+
+        var pusher = new Pusher('a52c1e925986b2beda85', {
+            cluster: 'ap1'
+        });
+
+        var user = "1253";
+        // alert(user);
+        var channel = pusher.subscribe('user.'+user );
+        channel.bind('order', function(data) {
+            // alert((data));
+            // var message = "+data.message+";
+            show_toastr('Success', "لديك طلب جديدة!", 'success');
+            location.reload();
+            // $("#message_notifier").show();
+            // $('#message_notifier p').text(data);
+
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+    
+    <link rel="stylesheet" href="assets/css/plugins/introjs.min.css">
+    
+
+
+    
+    <script src="assets/js/log.js"></script>
+    
+</head>
+<body class="theme-6">
+    
+    <section id="loading"  >
+        <span id="loader" ></span>
+    </section>
+    
+    <!-- [ Pre-loader ] start -->
+    <div class="loader-bg">
+        <div class="loader-track">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+
+    <!-- [ navigation menu ] start -->
+    <nav class="dash-sidebar light-sidebar transprent-bg">
+    <div class="navbar-wrapper">
+    <div class="m-header justify-content-center">
+        <a href="dashboard" class="b-brand">
+            <!-- ========   change your logo hear   ============ -->
+            <img src="storage/uploads/logo//logo-dark.png?timestamp=1707669120"
+                alt="Doing" class="logo logo-lg" height="40px" />
+                        </a>
+
+    </div>
+    <div class="navbar-content">
+        <ul class="dash-navbar">
+                            <li
+                    class="dash-item dash-hasmenu  active dash-trigger">
+                    <a href="#!" class="dash-link ">
+                        <span class="dash-micon">
+                            <i class="ti ti-home"></i>
+                        </span>
+                        <span class="dash-mtext">لوحة التحكم</span>
+                        <span class="dash-arrow">
+                            <i data-feather="chevron-right"></i>
+                        </span>
+                    </a>
+                    <ul
+                        class="dash-submenu  show">
+                                                    <li class="dash-item  active">
+                                <a class="dash-link" href="dashboard">لوحة التحكم</a>
+                            </li>
+                                                
+                                                    <li
+                                class="Store-orders-item dash-item collapsed">
+                                <a class="dash-link" href="">طلبات</a> <!--https://doin9.com/orders-->
+                            </li>
+                                            </ul>
+                </li>
+                                    <li
+                        class="Store-shop-item dash-item dash-hasmenu collapsed">
+                        <a href="#!" class="dash-link">
+                            <span class="dash-micon">
+                                <i class="ti ti-license"></i>
+                            </span>
+                            <span class="dash-mtext">المتجر</span>
+                            <span class="dash-arrow">
+                                <i data-feather="chevron-right"></i>
+                            </span>
+                        </a>
+                        <ul class="dash-submenu ">
+                                                            <li
+                                    class="dash-item ">
+                                    <a class="dash-link" href="">منتجات</a> <!--https://doin9.com/product-->
+                                </li>
+                                                                                        <li
+                                    class="dash-item ">
+                                    <a class="dash-link"
+                                        href="">صنف المنتج</a> <!--https://doin9.com/product_categorie-->
+                                </li>
+                                                                                        
+                            
+                            
+
+                            
+                                                                                                <li
+                                        class="dash-item ">
+                                        <a class="dash-link"
+                                            href="">صفحة مخصص</a> <!--https://doin9.com/custom-page-->
+                                    </li>
+                                                                                    </ul>
+                    </li>
+                
+                                    <li class="Store-design-item dash-item collapsed">
+                        <a href=""
+                            class="dash-link ">
+                            <span class="dash-micon">
+                                <i class="ti ti-layout-2"></i>
+                            </span>
+                            <span class="dash-mtext">التصميم</span>
+                        </a><!--https://doin9.com/themes-->
+                    </li>
+                                                    <li
+                        class="Store-staff-item dash-item dash-hasmenu collapsed">
+                        <a href="#!" class="dash-link ">
+                            <span class="dash-micon">
+                                <i class="ti ti-users"></i>
+                            </span>
+                            <span class="dash-mtext">طاقم عمل</span>
+                            <span class="dash-arrow">
+                                <i data-feather="chevron-right"></i>
+                            </span>
+                        </a>
+                        <ul
+                            class="dash-submenu ">
+                                                            <li class="dash-item ">
+                                    <a class="dash-link" href="">الصلاحيات</a><!--https://doin9.com/roles-->
+                                </li>
+                                                                                        <li
+                                    class="dash-item collapsed">
+                                    <a class="dash-link" href="">مستخدم</a><!--https://doin9.com/users-->
+                                </li>
+                                                    </ul>
+                    </li>
+                                                                            <li class="Store-shipping-item dash-item ">
+                            <a class="dash-link" href=""><!--https://doin9.com/shipping-->
+                                <span class="dash-micon">
+                                    <i class="ti ti-truck"></i>
+                                </span>
+                                <span class="dash-mtext">خدمات التوصيل</span>
+
+                            </a>
+                        </li>
+                                                                        <li class="Store-payment-item dash-item collapsed">
+                        <a href=""
+                            class="dash-link ">
+                            <span class="dash-micon">
+                                <i class="ti ti-wallet"></i>
+                            </span>
+                            <span class="dash-mtext">وسائل الدفع</span>
+                        </a><!--https://doin9.com/payment_method-->
+                    </li>
+                
+                                    <li class="Store-wallet-item dash-item collapsed">
+                        <a href=""
+                            class="dash-link ">
+                            <span class="dash-micon">
+                                <i class="ti ti-credit-card"></i>
+                            </span>
+                            <span class="dash-mtext">المحفظة والفواتير</span>
+                        </a><!--https://doin9.com/wallet-->
+                    </li>
+                
+
+
+                
+
+                                    <li
+                        class="Store-customer-item dash-item collapsed">
+                        <a href="r"
+                            class="dash-link ">
+                            <span class="dash-micon">
+                                <i class="ti ti-user"></i>
+                            </span>
+                            <span class="dash-mtext">عملاء</span>
+                        </a><!--https://doin9.com/custome-->
+                    </li>
+                                                    <li
+                        class="Store-plan-item dash-item dash-hasmenu collapsed">
+                        <a href=""
+                            class="dash-link ">
+                            <span class="dash-micon">
+                                <i class="ti ti-trophy"></i>
+                            </span>
+                            <span class="dash-mtext">الباقات</span>
+                        </a><!--https://doin9.com/plans-->
+                    </li>
+                                <li
+                class="Store-domain-item dash-item dash-hasmenu collapsed">
+                <a href=""
+                    class="dash-link ">
+                    <span class="dash-micon">
+                        <i class="ti ti-world"></i>
+                    </span>
+                    <span class="dash-mtext">
+                                                    إعدادات النطاق
+                                            </span>
+                </a><!--https://doin9.com/domain-->
+            </li>
+
+                                            <li
+                            class="Store-setting-item dash-item dash-hasmenu collapsed">
+                            <a href=""
+                                class="dash-link ">
+                                <span class="dash-micon">
+                                    <i class="ti ti-settings"></i>
+                                </span>
+                                <span class="dash-mtext">
+                                                                            إعدادات المتجر
+                                                                    </span>
+                            </a><!--https://doin9.com/settings-->
+                        </li>
+                    
+                                            <li
+                            class="Store-setting-item dash-item dash-hasmenu collapsed">
+                            <a href=""
+                                class="dash-link ">
+                                <span class="dash-micon">
+                                    <i class="ti ti-grid-dots"></i>
+
+                                </span>
+                                <span class="dash-mtext">
+                                    متجر التطبيقات
+                                </span>
+                            </a><!--https://doin9.com/appstore-->
+                        </li>
+                                    <li
+                    class="dash-item dash-hasmenu collapsed">
+                    <a href=""
+                        class="dash-link ">
+                        <span class="dash-micon">
+                            <i class="ti ti-puzzle"></i>
+                        </span>
+                        <span class="dash-mtext">
+                                التطبيقات المثبتة
+                        </span>
+                    </a><!--https://doin9.com/applications/index-->
+                </li>
+
+                <li class="dash-item ">
+                    <a href="support" class="dash-link ">
+                        <span class="dash-micon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30"
+                                viewBox="0 0 29 30" fill="none">
+                                <circle cx="14.5" cy="15.1846" r="14.5" fill="#6FD943" />
+                                <path opacity="0.4"
+                                    d="M22.08 8.66459C21.75 8.28459 21.4 7.92459 21.02 7.60459C19.28 6.09459 17 5.18461 14.5 5.18461C12.01 5.18461 9.73999 6.09459 7.98999 7.60459C7.60999 7.92459 7.24999 8.28459 6.92999 8.66459C5.40999 10.4146 4.5 12.6946 4.5 15.1846C4.5 17.6746 5.40999 19.9546 6.92999 21.7046C7.24999 22.0846 7.60999 22.4446 7.98999 22.7646C9.73999 24.2746 12.01 25.1846 14.5 25.1846C17 25.1846 19.28 24.2746 21.02 22.7646C21.4 22.4446 21.75 22.0846 22.08 21.7046C23.59 19.9546 24.5 17.6746 24.5 15.1846C24.5 12.6946 23.59 10.4146 22.08 8.66459ZM14.5 19.6246C13.54 19.6246 12.65 19.3146 11.93 18.7946C11.52 18.5146 11.17 18.1646 10.88 17.7546C10.37 17.0346 10.06 16.1346 10.06 15.1846C10.06 14.2346 10.37 13.3346 10.88 12.6146C11.17 12.2046 11.52 11.8546 11.93 11.5746C12.65 11.0546 13.54 10.7446 14.5 10.7446C15.46 10.7446 16.35 11.0546 17.08 11.5646C17.49 11.8546 17.84 12.2046 18.13 12.6146C18.64 13.3346 18.95 14.2346 18.95 15.1846C18.95 16.1346 18.64 17.0346 18.13 17.7546C17.84 18.1646 17.49 18.5146 17.08 18.8046C16.35 19.3146 15.46 19.6246 14.5 19.6246Z"
+                                    fill="#162C4E" />
+                                <path
+                                    d="M22.08 8.66459L18.18 12.5746C18.16 12.5846 18.15 12.6046 18.13 12.6146C17.84 12.2046 17.49 11.8546 17.08 11.5646C17.09 11.5446 17.1 11.5346 17.12 11.5146L21.02 7.60459C21.4 7.92459 21.75 8.28459 22.08 8.66459Z"
+                                    fill="#162C4E" />
+                                <path
+                                    d="M11.9297 18.7947C11.9197 18.8147 11.9097 18.8347 11.8897 18.8547L7.98969 22.7647C7.60969 22.4447 7.24969 22.0847 6.92969 21.7047L10.8297 17.7947C10.8397 17.7747 10.8597 17.7647 10.8797 17.7547C11.1697 18.1647 11.5197 18.5147 11.9297 18.7947Z"
+                                    fill="#162C4E" />
+                                <path
+                                    d="M11.9297 11.5746C11.5197 11.8546 11.1697 12.2045 10.8797 12.6145C10.8597 12.6045 10.8497 12.5846 10.8297 12.5746L6.92969 8.66453C7.24969 8.28453 7.60969 7.92453 7.98969 7.60453L11.8897 11.5146C11.9097 11.5346 11.9197 11.5546 11.9297 11.5746Z"
+                                    fill="#162C4E" />
+                                <path
+                                    d="M22.08 21.7046C21.75 22.0846 21.4 22.4446 21.02 22.7646L17.12 18.8546C17.1 18.8346 17.09 18.8246 17.08 18.8046C17.49 18.5146 17.84 18.1646 18.13 17.7546C18.15 17.7646 18.16 17.7746 18.18 17.7946L22.08 21.7046Z"
+                                    fill="#162C4E" />
+                            </svg>
+                        </span>
+                        <span class="dash-mtext">هل تحتاج الى مساعدة؟</span>
+                    </a>
+                </li>
+
+                <br>
+                <br>
+                <br>
+
+                    </ul>
+        
+    </div>
+</div>
+</nav>
+
+    <!-- [ Header ] start -->
+    <!-- [ Header ] start -->
+<style>
+    .close-button:hover {
+        cursor: pointer;
+
+    }
+
+    .header-top {
+        padding: 10px 0;
+        background-color: #cce8f5;
+        border-bottom: #efefef;
+    }
+
+    .header-top-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0rem;
+
+    }
+</style>
+    <header class="dash-header transprent-bg " >
+             
+                  <script>
+
+    $('#delet').click(function(){
+        
+        $.ajax({
+        url: '',//https://doin9.com/mute-alert
+        data: {
+            "_token": "lElQTcmHV82yu8Q69LLIIIn4F0fHoBFjxMm6Rodc",
+        },
+        method: 'POST',
+        context: this,
+        dataType: 'json',
+
+        success: function(data) {
+        $('#plan_warning').css('display','none');
+        }
+    });
+    });
+    
+</script>
+<div class="header-wrapper">
+    <div class="me-auto dash-mob-drp">
+        <ul class="list-unstyled">
+            <li class="dash-h-item mob-hamburger">
+                <a href="#!" class="dash-head-link" id="mobile-collapse">
+                    <div class="hamburger hamburger--arrowturn">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+                        <li class="dropdown dash-h-item drp-company">
+                <a class="dash-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="false" aria-expanded="false">
+                    <span
+                        class="badge text-danger"></span>
+                    <i class="ti ti-bell "></i>
+                </a>
+                <div class="dropdown-menu dash-h-dropdown">
+
+                    
+                </div>
+            </li>
+
+            <li class="dropdown dash-h-item drp-company">
+                <a class="dash-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="false" aria-expanded="false">
+                    <span class="theme-avtar">
+                        <img class="theme-avtar" alt="#" style="width:30px;"
+                            src="storage/uploads/profile/avatar">
+                    </span>
+                    <span class="hide-mob ms-2">Hi,مصعب علي عوضه الاشول!</span>
+                    <i class="ti ti-chevron-down drp-arrow nocolor hide-mob"></i>
+                </a>
+                <div class="dropdown-menu dash-h-dropdown">
+
+                    <a href="" class="dropdown-item"><!--https://doin9.com/profile-->
+                        <i class="ti ti-user"></i>
+                        <span>ملفي الشخصي</span>
+                    </a>
+                    <a href="" class="dropdown-item"
+                        onclick="event.preventDefault();document.getElementById('frm-logout').submit();">
+                        <i class="ti ti-power"></i>
+                        <span>تسجيل خروج</span>
+                    </a><!--https://doin9.com/logout-->
+                    <form id="frm-logout" action="" method="POST" style="display: none;"><input type="hidden" name="_token" value="lElQTcmHV82yu8Q69LLIIIn4F0fHoBFjxMm6Rodc"> <!--https://doin9.com/logout-->                   </form>
+                </div>
+            </li>
+
+
+                            <li class="dropdown dash-h-item drp-company">
+                    <a class="store-link-item dash-head-link dropdown-toggle arrow-none me-0"
+                        href="store-online-alashwl/home" target="_blank" role="button" aria-haspopup="false"
+                        aria-expanded="false">
+                        
+                        <i class="ti ti-arrow-up-right-circle"></i>
+                    </a>
+
+                </li>
+                    </ul>
+    </div>
+    <div class="ms-auto">
+        <ul class="list-unstyled">
+                            
+                                        <li class="dropdown dash-h-item drp-language">
+                    <a class="dash-head-link dropdown-toggle arrow-none me-0 cust-btn" data-bs-toggle="dropdown"
+                        href="#" role="button" aria-haspopup="false" aria-expanded="false"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-original-title="Select your bussiness">
+                        <i class="ti ti-building-store"></i>
+                        <span class="hide-mob">Store Online Alashwl</span>
+                        <i class="ti ti-chevron-down drp-arrow nocolor"></i>
+                    </a>
+                    <div class="dropdown-menu dash-h-dropdown dropdown-menu-end">
+                                                                                                            <a href=" # "
+                                    class="dropdown-item">
+                                                                            <i class="ti ti-checks text-primary"></i>
+                                                                        <span>Store Online Alashwl</span>
+                                </a>
+                                                                            <div class="dropdown-divider m-0"></div>
+                    </div>
+                </li>
+                        <li class="dropdown dash-h-item drp-language">
+                <a class="dash-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#"
+                    role="button" aria-haspopup="false" aria-expanded="false">
+                    <i class="ti ti-world nocolor"></i>
+                    <span class="drp-text">Arabic</span>
+                    <i class="ti ti-chevron-down drp-arrow nocolor"></i>
+                </a>
+                <div class="dropdown-menu dash-h-dropdown dropdown-menu-end">
+                                            <a href="https://doin9.com/change-language/ar"
+                            class="dropdown-item text-primary">
+                            <span>Arabic</span>
+                        </a>
+                                            <a href="https://doin9.com/change-language/en"
+                            class="dropdown-item ">
+                            <span>English</span>
+                        </a>
+                                                        </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</header>
+<!-- [ Header ] end -->
+
+    
+
+    <div class="container p-5 fixed-top" id="message_notifier" style="display: none">
+        <div class="row no-gutters">
+            <div class="col-lg-5 col-md-12 ml-auto">
+                <div class="alert alert-success fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="True">&times;</span>
+                    </button>
+                    <h4 class="alert-heading">Please checkout your notifications!</h4>
+                    <p>You have a new order.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- [ Main Content ] start -->
+    <div class="dash-container">
+        <div class="dash-content">
+            <!-- [ breadcrumb ] start -->
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 mb-3">
+                            <div class="page-header-title">
+                                <h4 class="m-b-10">    لوحة التحكم
+</h4>
+                            </div>
+                            <ul class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="https://doin9.com/dashboard">الرئيسية</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="col-12">
+                                                            </div>
+                            <div class="col-12 text-end">
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- [ breadcrumb ] end -->
+            <!-- [ Main Content ] start -->
+                            <!-- [ Main Content ] start -->
+
+        
+                    
+        
+        
+
+        <div class="row">
+            <!-- [ sample-page ] start -->
+            
+            <div class="col-sm-12">
+                <div class="row mb-5 gy-4 dash-items">
+                    <div class="col-lg-4">
+                        <div class="welcome-card border bg-light-primary p-3 border-primary rounded text-dark h-100">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="me-2">
+                                    <img src="https://doin9.com/storage/uploads/profile//avatar.png"
+                                        alt="" class="theme-avtar">
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">
+                                        <span class="d-block" id="greetings"></span>
+                                        <b class="f-w-700">مصعب علي عوضه الاشول</b>
+                                    </h5>
+                                </div>
+                            </div>
+                            <p class="mb-0">
+                                مرحبا بعودتك ! , يمكنك ان تضيف منتجاتك او اصنافك بسرعه من هنا !
+                            </p>
+                            <div class="btn-group mt-4">
+                                <button class="btn  btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i data-feather="plus" class="me-2"></i>
+                                    إضافة سريعة</button>
+                                <div class="dropdown-menu">
+                                                                            <a class="dropdown-item"
+                                            href="https://doin9.com/product">أضف منتج جديد</a>
+                                    
+                                                                            <a class=" btn dropdown-item" data-ajax-popup="true" data-url="https://doin9.com/product_categorie/create" data-bs-toggle="tooltip" data-bs-placement="top" title="إنشاء" data-title="إنشاء صنف منتج جديد"
+                                            href="#">أضافة صنف جديد</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row gy-4">
+                            
+                            <div class="col-xl-3 col-lg-6 col-sm-6">
+                                <div class="card shadow-none mb-0">
+                                    <div class="card-body border rounded  p-3">
+                                        <div class="mb-3 d-flex align-items-center justify-content-between">
+                                            <h6 class="mb-0">إجمالي المنتجات</h6>
+                                            <span>
+                                                <i data-feather="arrow-up-right"></i>
+                                            </span>
+                                        </div>
+                                        <div class="mb-3 d-flex align-items-center justify-content-between">
+                                            <span class="f-30 f-w-600">3</span>
+                                        </div>
+                                        <div class="chart-wrapper">
+                                            <div id="TotalProducts" class="remove-min"></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-6 col-sm-6">
+                                <div class="card shadow-none mb-0">
+                                    <div class="card-body border rounded  p-3">
+                                        <div class="mb-3 d-flex align-items-center justify-content-between">
+                                            <h6 class="mb-0">إجمالي المبيعات</h6>
+                                            <span>
+                                                <i data-feather="arrow-up-right"></i>
+                                            </span>
+                                        </div>
+                                        <div class="mb-3 align-items-center justify-content-between">
+                                            <span
+                                                class="f-30 f-w-600">ريال0</span>
+                                        </div>
+                                        <div class="chart-wrapper">
+                                            <div id="TotalSales" class="remove-min"></div>
+                                        </div>
+
+
+                                        
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-sm-6">
+                                <div class="card shadow-none mb-0">
+                                    <div class="card-body border rounded  p-3">
+                                        <div class="mb-3 d-flex align-items-center justify-content-between">
+                                            <h6 class="mb-0">إجمالي الطلبات</h6>
+                                            <span>
+                                                <i data-feather="arrow-up-right"></i>
+                                            </span>
+                                        </div>
+                                        <div class="mb-3 d-flex align-items-center justify-content-between">
+                                            <span class="f-30 f-w-600">0</span>
+                                        </div>
+                                        <div class="chart-wrapper">
+                                            <div id="TotalOrders" class="remove-min"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4>حالة التخزين <small>(0.5MB /
+                                1024MB)</small></h4>
+
+                        <div class="card shadow-none mb-0">
+                            <div class="card-body border rounded  p-3">
+                                <div id="device-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <h4>أفضل المنتجات</h4>
+                        <div class="card mb-0 shadow-none">
+                            <div class="card-body border border-bottom-0 overflow-hidden rounded pb-0 table-border-style">
+                                <div class="table-responsive">
+                                    <table class="table mb-3">
+                                        <thead>
+                                            <tr>
+                                                <th class="bg-transparent">منتج</th>
+                                                <th class="bg-transparent"> كمية</th>
+                                                <th class="bg-transparent">سعر</th>
+                                                <th class="bg-transparent"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                            <tr height="150px">
+                                                    <td class="dataTables-empty" colspan="4">
+                                                        لا توجد بيانات متوفرة في الجدول.
+                                                    </td>
+                                                </tr>
+                                                                                    </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="col-lg-12">
+                        <h4>طلبات</h4>
+                        <div class="card shadow-none mb-0">
+                            <div class="card-body p-3 rounded border">
+                                <div id="traffic-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="f-w-900 mb-3">الطلبيات الأخيرة</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="card mb-0 shadow-none">
+                            <div class="card-body border border-bottom-0 overflow-hidden rounded pb-0 table-border-style">
+                                <div class="table-responsive">
+                                    <table class="table mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th class="bg-transparent">طلبات</th>
+                                                <th class="bg-transparent">تاريخ</th>
+                                                <th class="bg-transparent">اسم</th>
+                                                <th class="bg-transparent">قيمة</th>
+                                                <th class="bg-transparent">نوع الدفع</th>
+                                                <th class="bg-transparent">حالة</th>
+                                                <th class="bg-transparent">عملية</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                                                                                                                </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- [ sample-page ] end -->
+
+        </div>
+
+        
+        <script>
+            $("meta[name='csrf-token']").remove()
+
+        </script>
+
+        <div id="alert-notification" class="row justify-content-between alert alert-warning fixed-bottom m-auto" style="width: 90%;height: 40%; display:none;" role="alert">
+
+            <button type="button" class="btn-close col-md-4" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true"></span>
+            </button>
+
+            <img src="https://doin9.com/assets/img/doino.png"
+                alt="Doing" class="logo logo-lg col-md-8" style="width: auto" height="40px" />
+
+            <div class="p-5" style="width: 100%">
+
+
+                <h4 class="alert-heading">ملاحظة</h4>
+
+
+                <p>إسمح للاشعارات بالظهور, لمعرفة إن كان هناك طلب جديد , قد يصلك في اي وقت</p>
+                <hr>
+                <p class="mb-0">شكرا لك على عملك!</p>
+            </div>
+        </div>
+        <!-- [ Main Content ] end -->
+
+
+            </div>
+    </div>
+
+    <div class="modal fade" id="commonModal" tabindex="-1" role="dialog" aria-labelledby="commonModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="commonModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="commonModalOver" tabindex="-1" role="dialog" aria-labelledby="commonModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="commonModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="dash-footer">
+    <div class="footer-wrapper">
+        <div class="py-1">
+                      <span class="text-muted">&copy;  حقوق النشر  Doing 2024</span>
+
+            <!--<span class="text-muted">&copy; حقوق النشر  Doing 2024</span>-->
+        </div>
+    </div>
+</footer>
+<!-- Required Js -->
+<script src="custom/js/jquery.min.js"></script>
+<script src="assets/js/plugins/popper.min.js"></script>
+<script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+<script src="assets/js/plugins/bootstrap.min.js"></script>
+<script src="assets/js/plugins/feather.min.js"></script>
+<script src="assets/js/dash.js"></script>
+<script src="assets/js/plugins/sweetalert2.all.min.js"></script>
+
+<script src="custom/libs/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="custom/libs/select2/dist/js/select2.min.js"></script>
+<script src="custom/libs/moment/min/moment.min.js"></script>
+<script src="custom/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+<script src="custom/libs/fullcalendar/dist/fullcalendar.min.js"></script>
+<script src="custom/libs/flatpickr/dist/flatpickr.min.js"></script>
+<script src="custom/libs/quill/dist/quill.min.js"></script>
+<script src="custom/libs/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
+<script src="custom/libs/autosize/dist/autosize.min.js"></script>
+<script src="custom/js/jquery-ui.min.js"></script>
+<script src="custom/js/repeater.js"></script>
+<script src="custom/js/letter.avatar.js"></script>
+<script src="assets/js/plugins/choices.min.js"></script>
+<script src="assets/js/plugins/simple-datatables.js"></script>
+<script src="assets/js/plugins/bootstrap-switch-button.min.js"></script>
+<script src="custom/libs/dropzone/dist/min/dropzone.min.js"></script>
+<script src="custom/libs/progressbar.js/dist/progressbar.min.js"></script>
+<script src="custom/libs/summernote/summernote-bs4.js"></script>
+<script type="text/javascript" src="custom/js/custom.js"></script>
+
+    <!-- Bootstrap CDN -->
+    
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap-Iconpicker Bundle -->
+    <script  src="assets/plugins/bootstrap-iconpicker/js/iconset/fontawesome5-3-1.min.js"></script>
+<script  src="assets/plugins/bootstrap-iconpicker/js/bootstrap-iconpicker.min.js"></script>
+
+
+<!-- Apex Chart -->
+<script src="assets/js/plugins/apexcharts.min.js"></script>
+
+<script src="assets/js/plugins/intro.min.js"></script>
+  
+
+
+
+    <script>
+        var today = new Date()
+        var curHr = today.getHours()
+        var target = document.getElementById("greetings");
+
+        if (curHr < 12) {
+            target.innerHTML = "صباح الخير،";
+        } else if (curHr < 17) {
+            target.innerHTML = "مساء الخير،";
+        } else {
+            target.innerHTML = "مساء الخير،";
+        }
+    </script>
+    <script>
+        $(document).on('click', '#code-generate', function() {
+            var length = 10;
+            var result = '';
+            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            var charactersLength = characters.length;
+            for (var i = 0; i < length; i++) {
+                result += characters.charAt(Math.floor(Math.random() * charactersLength));
+            }
+            $('#auto-code').val(result);
+        });
+    </script>
+            <script>
+            $(document).ready(function() {
+                $('.cp_link').on('click', function() {
+                    var value = $(this).attr('data-link');
+                    var $temp = $("<input>");
+                    $("body").append($temp);
+                    $temp.val(value).select();
+                    document.execCommand("copy");
+                    $temp.remove();
+                    show_toastr('Success', 'تم نسخ الرابط', 'success')
+                });
+            });
+            (function() {
+                var options = {
+                    chart: {
+                        height: 250,
+                        type: 'area',
+                        toolbar: {
+                            show: false,
+                        },
+                    },
+                    dataLabels: {
+                        enabled: false
+                    },
+                    stroke: {
+                        width: 2,
+                        curve: 'smooth'
+                    },
+                    series: [{
+                        name: "طلب",
+                        data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+                    }],
+                    xaxis: {
+                        axisBorder: {
+                            show: !1
+                        },
+                        type: "MMM",
+                        categories: ["29-Jan","30-Jan","31-Jan","01-Feb","02-Feb","03-Feb","04-Feb","05-Feb","06-Feb","07-Feb","08-Feb","09-Feb","10-Feb","11-Feb"],
+                        title: {
+                            text: ' أيام'
+                        }
+                    },
+                    colors: ['#ffa21d', '#FF3A6E'],
+
+                    grid: {
+                        strokeDashArray: 4,
+                    },
+                    legend: {
+                        show: false,
+                    },
+                    yaxis: {
+                        tickAmount: 3,
+                        title: {
+                            text: 'كمية'
+                        },
+                    }
+                };
+                var chart = new ApexCharts(document.querySelector("#traffic-chart"), options);
+                chart.render();
+            })();
+            (function() {
+                var options = {
+                    chart: {
+                        height: 80,
+                        type: 'area',
+                        toolbar: {
+                            show: false,
+                        },
+                    },
+                    dataLabels: {
+                        enabled: false,
+                        show: false,
+                    },
+                    stroke: {
+                        width: 2,
+                        curve: 'smooth',
+                    },
+                    series: [{
+                        name: "مبيعات",
+                        data: [null,null,null,null,null,null,null]
+                    }],
+                    colors: ['#6FD943'],
+                    grid: {
+                        strokeDashArray: 4,
+                        show: false,
+                    },
+                    legend: {
+                        show: false,
+                    },
+                    markers: {
+                        enabled: false
+                    },
+                    yaxis: {
+                        show: false,
+                    },
+                    xaxis: {
+                        labels: {
+                            show: false,
+                        },
+                        axisBorder: {
+                            show: false,
+                        },
+                        axisTicks: {
+                            show: false,
+                        },
+                        tooltip: {
+                            enabled: false,
+                        }
+                    },
+                    tooltip: {
+                        enabled: false,
+                    },
+                    fill: {
+                        type: 'gradient',
+                        gradient: {
+                            shade: 'dark',
+                            type: "horizontal",
+                            shadeIntensity: 0,
+                            gradientToColors: undefined,
+                            inverseColors: true,
+                            opacityFrom: 0,
+                            opacityTo: 0,
+                            stops: [0, 50, 100],
+                            colorStops: []
+                        }
+                    }
+                };
+                var chart = new ApexCharts(document.querySelector("#TotalSales"), options);
+                chart.render();
+            })();
+            (function() {
+                var options = {
+                    chart: {
+                        height: 80,
+                        type: 'area',
+                        toolbar: {
+                            show: false,
+                        },
+                    },
+                    dataLabels: {
+                        enabled: false,
+                        show: false,
+                    },
+                    stroke: {
+                        width: 2,
+                        curve: 'smooth',
+                    },
+                    series: [{
+                        name: "طلب",
+                        data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+                    }],
+                    colors: ['#6FD943'],
+                    grid: {
+                        strokeDashArray: 4,
+                        show: false,
+                    },
+                    legend: {
+                        show: false,
+                    },
+                    markers: {
+                        enabled: false
+                    },
+                    yaxis: {
+                        show: false,
+                    },
+                    xaxis: {
+                        labels: {
+                            show: false,
+                        },
+                        axisBorder: {
+                            show: false,
+                        },
+                        axisTicks: {
+                            show: false,
+                        },
+                        tooltip: {
+                            enabled: false,
+                        }
+                    },
+                    tooltip: {
+                        enabled: false,
+                    },
+                    fill: {
+                        type: 'gradient',
+                        gradient: {
+                            shade: 'dark',
+                            type: "horizontal",
+                            shadeIntensity: 0,
+                            gradientToColors: undefined,
+                            inverseColors: true,
+                            opacityFrom: 0,
+                            opacityTo: 0,
+                            stops: [0, 50, 100],
+                            colorStops: []
+                        }
+                    }
+                };
+                var chart = new ApexCharts(document.querySelector("#TotalOrders"), options);
+                chart.render();
+            })();
+            (function() {
+                var options = {
+                    chart: {
+                        height: 80,
+                        type: 'area',
+                        toolbar: {
+                            show: false,
+                        },
+                    },
+                    dataLabels: {
+                        enabled: false,
+                        show: false,
+                    },
+                    stroke: {
+                        width: 2,
+                        curve: 'smooth',
+                    },
+                    series: [{
+                        name: "طلب",
+                        data: []
+                    }],
+                    colors: ['#6FD943'],
+                    grid: {
+                        strokeDashArray: 4,
+                        show: false,
+                    },
+                    legend: {
+                        show: false,
+                    },
+                    markers: {
+                        enabled: false
+                    },
+                    yaxis: {
+                        show: false,
+                    },
+                    xaxis: {
+                        labels: {
+                            show: false,
+                        },
+                        axisBorder: {
+                            show: false,
+                        },
+                        axisTicks: {
+                            show: false,
+                        },
+                        tooltip: {
+                            enabled: false,
+                        }
+                    },
+                    tooltip: {
+                        enabled: false,
+                    },
+                    fill: {
+                        type: 'gradient',
+                        gradient: {
+                            shade: 'dark',
+                            type: "horizontal",
+                            shadeIntensity: 0,
+                            gradientToColors: undefined,
+                            inverseColors: true,
+                            opacityFrom: 0,
+                            opacityTo: 0,
+                            stops: [0, 50, 100],
+                            colorStops: []
+                        }
+                    }
+                };
+                var chart = new ApexCharts(document.querySelector("#TotalProducts"), options);
+                chart.render();
+            })();
+
+            (function() {
+                var options = {
+                    series: [0.05],
+                    chart: {
+                        height: 350,
+                        type: 'radialBar',
+                        offsetY: -20,
+                        sparkline: {
+                            enabled: true
+                        }
+                    },
+                    plotOptions: {
+                        radialBar: {
+                            startAngle: -90,
+                            endAngle: 90,
+                            track: {
+                                background: "#e7e7e7",
+                                strokeWidth: '97%',
+                                margin: 5, // margin is in pixels
+                            },
+                            dataLabels: {
+                                name: {
+                                    show: true
+                                },
+                                value: {
+                                    offsetY: -50,
+                                    fontSize: '20px'
+                                }
+                            }
+                        }
+                    },
+                    grid: {
+                        padding: {
+                            top: -10
+                        }
+                    },
+                    colors: ["#6FD943"],
+                    labels: ['Used'],
+                };
+                var chart = new ApexCharts(document.querySelector("#device-chart"), options);
+                chart.render();
+            })();
+        </script>
+    
+  
+            <link rel='stylesheet' href='css/cookieconsent.css' media="screen" />
+<script src="js/cookieconsent.js"></script>
+<script>
+    let language_code = document.documentElement.getAttribute('lang');
+    let languages = {};
+    languages[language_code] = {
+        consent_modal: {
+            title: 'hello',
+            description: 'description',
+            primary_btn: {
+                text: 'primary_btn text',
+                role: 'accept_all'
+            },
+            secondary_btn: {
+                        text: 'secondary_btn text',
+                        role: 'accept_necessary'
+                    }
+                },
+                settings_modal: {
+                    title: 'settings_modal',
+                    save_settings_btn: 'save_settings_btn',
+                    accept_all_btn: 'accept_all_btn',
+                    reject_all_btn: 'reject_all_btn',
+                    close_btn_label: 'close_btn_label',
+                    blocks: [{
+                            title: 'block title',
+                            description: 'block description'
+                        },
+
+                        {
+                            title: 'title',
+                            description: 'description',
+                            toggle: {
+                                value: 'necessary',
+                                enabled: true,
+                                readonly: false
+                            }
+                        },
+                    ]
+                }
+            };
+            </script>
+        <script>
+            function setCookie(cname, cvalue, exdays) {
+                const d = new Date();
+                d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                let expires = "expires=" + d.toUTCString();
+                document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+            }
+            
+            function getCookie(cname) {
+                let name = cname + "=";
+                let decodedCookie = decodeURIComponent(document.cookie);
+                let ca = decodedCookie.split(';');
+                for (let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+            
+            
+            // obtain plugin
+            var cc = initCookieConsent();
+            // run plugin with your configuration
+            cc.run({
+                current_lang: 'en',
+                autoclear_cookies: true, // default: false
+                page_scripts: true,
+                // ...
+                gui_options: {
+                    consent_modal: {
+                        layout: 'cloud', // box/cloud/bar
+                        position: 'bottom center', // bottom/middle/top + left/right/center
+                        transition: 'slide', // zoom/slide
+                        swap_buttons: false // enable to invert buttons
+                    },
+                    settings_modal: {
+                        layout: 'box', // box/bar
+                        // position: 'left',           // left/right
+                        transition: 'slide' // zoom/slide
+                    }
+                },
+               
+                onChange: function(cookie, changed_preferences) {},
+                onAccept: function(cookie) {
+                    if (!getCookie('cookie_consent_logged')) {
+                        var cookie = cookie.level;
+                        $.ajax({
+                            url: 'cookie-consent',
+                            datType: 'json',
+                            data: {
+                                cookie: cookie,
+                            },
+                        })
+                        setCookie('cookie_consent_logged', '1', 182, '/');
+                    }
+                },
+                
+                languages: {
+                    'en': {
+                        consent_modal: {
+                            title: "We use cookies!",
+                            description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it.. <button type="button" data-cc="c-settings" class="cc-link">دعني اختار</button>',
+                            primary_btn: {
+                                text: 'Accept all',
+                                role: 'accept_all' // 'accept_selected' or 'accept_all'
+                            },
+                            secondary_btn: {
+                                text: 'Reject all',
+                                role: 'accept_necessary' // 'settings' or 'accept_necessary'
+                            },
+                        },
+                        settings_modal: {
+                            title: 'Cookie preferences',
+                            save_settings_btn: 'Save settings',
+                            accept_all_btn: 'Accept all',
+                            reject_all_btn: 'Reject all',
+                            close_btn_label: 'Close',
+                            cookie_table_headers: [{
+                                col1: 'Name'
+                            },
+                            {
+                                col2: 'Domain'
+                                },
+                                {
+                                    col3: 'Expiration'
+                                },
+                                {
+                                    col4: 'Description'
+                                }
+                            ],
+                            blocks: [{
+                                title: 'We use cookies!',
+                                description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it.',
+                            }, {
+                                title: 'Strictly necessary cookies',
+                                description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
+                                toggle: {
+                                    value: 'necessary',
+                                    enabled: true,
+                                    readonly: true // cookie categories with readonly=true are all treated as "necessary cookies"
+                                }
+                            }, {
+                                title: 'More information',
+                                description: 'For any queries in relation to our policy on cookies and your choices, please contact us <a class="cc-link" href="#">contact us</a>.',
+                            }]
+                        }
+                    }
+                }
+                
+            });
+        </script>    </body>
+
+
+</html>
