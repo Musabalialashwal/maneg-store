@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>    الرئيسية
+ - store-online-alashwl </title>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="">
+    <meta name="description" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://doin9.com/store/store-online-alashwl">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://doin9.com/storage/uploads/metaImage/">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://doin9.com/store/store-online-alashwl">
+    <meta property="twitter:title" content="">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="https://doin9.com/storage/uploads/metaImage/">
+
+    <meta name="csrf-token" content="ldjArXWiuXbxPT2asc17EkNqRtZjR0ygByi4yiRJ">
+    <link rel="icon"
+        href="https://doin9.com/storage/uploads/logo/1703601244favicon.png"
+        type="image/png">
+    <link rel="stylesheet" href="https://doin9.com/assets/theme1/fonts/fontawesome-free/css/all.min.css">
+
+            <link rel="stylesheet" href="https://doin9.com/assets/theme1/css/rtl-main-style.css">
+        <link rel="stylesheet" href="https://doin9.com/assets/theme1/css/rtl-responsive.css">
+    
+    
+    <meta name="mobile-wep-app-capable" content="yes">
+    <meta name="apple-mobile-wep-app-capable" content="yes">
+    <meta name="msapplication-starturl" content="/">
+    <link rel="apple-touch-icon"
+        href="https://doin9.com/storage/uploads/logo/1703601244favicon.png" />
+            
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <style>
+        .text-primary{
+            color: var(--theme-color);
+        }
+        .footer-link-2 p{
+            padding-left: 40px
+        }
+        /* start reveiw rating scroll */
+        .review-box{
+            border-bottom: 1px solid #f1f1f1;
+            margin: 0 10px;
+            padding: 20px 5px;
+        }
+        .review-top p{
+            color: #666;
+            font-size: 14px;
+            margin-left: 5px;
+
+        }
+        .rating-name {
+            color: #666;
+            font-size: 14px;
+            margin: 0 45px;
+            width: 110px;
+            display: inline-block;
+        }
+        .rating-badge {
+            /* background: #fcd34c; */
+            border-radius: 99px;
+            color: #fff;
+            display: inline-block;
+            font-size: 11px;
+            margin-right: 5px;
+            padding: 3px 10px;
+        }
+        .rating-time {
+            color: #999;
+            float: left;
+            font-size: 11px;
+            margin-top: 9px;
+        }
+        .rating-pdp{
+            display: block;
+            display: block;
+            margin: 10px 35px 10px 0;
+        }
+        .review-box-bottom p {
+            margin: 5px 35px 0 0;
+        }
+
+        /* end reveiw rating scroll */
+    /* start swiper section  */
+.arr{
+    display: flex;
+    justify-content: space-evenly;
+}
+.category-swiper {
+      width: 100%;
+      height: 100%;
+    }
+        .arr {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .category-swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+.category-swiper.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.category-swiper..swiper-wrapper {
+    justify-content: flex-end;
+  }
+        .bestseller-section ul {
+            overflow: initial !important;
+        }
+
+        .category-swiper.swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .category-swiper .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                display: none !important;
+            }
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            position: absolute;
+            line-height: 36px;
+            padding: 0;
+            height: 26px;
+            width: 26px;
+            margin: 0 15px 0 15px;
+            background: var(--theme-color);
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+            /* opacity: 1; */
+
+        }
+
+        .swiper-button-next {
+            right: auto;
+            left: auto;
+        }
+
+        .swiper-button-next::after,
+        .swiper-button-prev::after {
+            font-size: 15px;
+            color: #efefef;
+
+        }
+
+        /* end  swiper section  */
+
+        @media only screen and (max-width: 992px) {
+            #sub-nav {
+                display: none !important;
+            }
+        }
+
+        .social-link {
+            justify-content: flex-start !important;
+        }
+
+        .sub-nav {
+            width: 100%;
+            position: relative;
+            text-align: center;
+            background-color: #fff;
+            display: block;
+            /* margin-top: 115px; */
+            padding: 20px;
+            background: #efefef;
+        }
+
+        .category-item {
+            display: inline-block;
+            margin: 0 10px;
+            position: relative;
+        }
+        .category-item.has-children:hover .sub-items {
+            display: block;
+        }
+
+        .category-item.has-children::after,
+        .menu-lnk.has-children::after{
+            border-bottom: 2px solid var(--second-color);
+            border-left: 2px solid var(--second-color);
+            content: '';
+            display: block;
+            height: 8px;
+            width: 8px;
+            margin-top: -5px;
+            pointer-events: none;
+            position: absolute;
+            left: -8px;
+            top: 50%;
+            -webkit-transform-origin: 34% 66%;
+            -ms-transform-origin: 34% 66%;
+            transform-origin: 34% 66%;
+            -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            -webkit-transition: all ease-in-out 0.5s;
+            -moz-transition: all ease-in-out 0.5s;
+            -ms-transition: all ease-in-out 0.5s;
+            -o-transition: all ease-in-out 0.5s;
+            transition: all ease-in-out 0.5s;
+        }
+        .menu-lnk.has-children::after{
+            left: 24px;
+            top: 10px;
+        }
+        .category-item.has-children:hover.category-item.has-children::after,
+        .menu-lnk.has-children.rotate::after{
+            transform: rotate(135deg);
+        }
+
+        .sub-items.active {
+            display: block;
+        }
+
+        .sub-items {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 3;
+        }
+        .mobile-sub-items{
+            display: none;
+            background-color: transparent;
+            border-radius: 0;
+            border-right: 3px solid #eee;
+            box-shadow: none;
+            margin: 0 auto 15px;
+            max-height: unset;
+            opacity: 1;
+            padding: 0;
+            right: unset;
+            transform: unset!important;
+            transition: unset;
+            visibility: visible;
+            transition: height 0.3s ease-in-out;
+            width: calc(100% - 30px);
+        }
+        .mobile-menu-wrapper .mobile-menu-bar>ul>li{
+
+        }
+        .mobile-menu-bar ul{
+            /* background-color: #fff; */
+        }
+
+        /* .mobile-sub-items .mobile-sub-items-list a, */
+        .sub-items a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: right;
+        }
+
+        .sub-items a:hover {
+            background-color: var(--theme-color);
+            color: #fff;
+        }
+
+        .left-side-header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            flex: 1;
+            padding-left: 25px;
+        }
+        @media screen and (max-width: 575px){
+            .left-side-header {
+                flex: 0.6;
+            }
+        }
+        .center-side-header {
+            display: flex;
+            align-items: center;
+
+        }
+
+
+        /*  */
+
+        .store-feature {
+
+            text-align: center;
+
+        }
+
+        .store-feature__icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            width: 80px;
+            height: 80px;
+            position: relative;
+            font-size: 2.5333333333rem;
+            ;
+            color: var(--theme-color);
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 15px;
+        }
+
+        .store-feature__icon:before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: var(--theme-color);
+            opacity: .1;
+            pointer-events: none;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .store-feature {
+                margin-bottom: 50px;
+            }
+        }
+
+        @media only screen and (min-width: 767px) {
+            .footer-bottom {
+                flex-direction: row-reverse;
+            }
+        }
+
+        .footer-copy-right:hover {
+            color: var(--theme-color);
+        }
+
+        .store-feature .title--primary {
+            margin: 0 0 5px;
+        }
+
+        .title--large {
+            font-size: 1.3333333333rem;
+        }
+
+        .title--primary {
+            color: var(--theme-color) !important;
+        }
+
+        .title {
+            font-size: 1.3333333333rem;
+            font-family: 'Apple-Medium';
+            font-weight: 100;
+            color: var(--theme-color);
+        }
+
+        .distinguishes-us-title {
+            margin-bottom: 25px;
+            font-size: 25px;
+        }
+
+        .social-icon,.social-button  {
+            position: relative;
+            text-align: center;
+            display: block;
+            width: 36px;
+            height: 36px;
+            color: rgba(0, 0, 0, .5);
+            text-align: center;
+            line-height: 25px;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, .2);
+            font-size: 18px;
+            -webkit-transition: all .2s ease-out;
+            transition: all .2s ease-out;
+            margin-top: 15px;
+
+        }
+
+        .social-icon i {
+            position: absolute;
+            right: 50%;
+            top: 50%;
+            transform: translateX(50%) translateY(-50%);
+        }
+
+        .social-icon:hover {
+            border-color: var(--theme-color);
+        }
+
+        .store-distinguishes {
+            background: #efefef;
+            font-family: var(--first-font)
+        }
+
+        .header-top-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 991px) {
+            .header-top-left {
+                display: flex !important;
+            }
+        }
+
+        .main-home-first-section {
+            height: 440px !important;
+        }
+        @media screen and (max-width: 575px) {
+            .main-home-first-section{
+            height: auto !important;
+            }
+            .main-home-first-section{
+                padding: 45px 0;
+            }
+        }
+        .checkout-box{
+            /* background-color: transparent !important;
+            border: 1px solid var(--theme-color); */
+        }
+        .checkout-box {
+            background-color: transparent !important;
+            border: 1px solid var(--theme-color);
+        }
+
+        .loading {
+            z-index: 20;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .loader {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            animation: rotate 0.5s linear infinite
+        }
+
+        .loader::before,
+        .loader::after {
+            content: "";
+            box-sizing: border-box;
+            position: absolute;
+            inset: 0px;
+            border-radius: 50%;
+            border: 5px solid #008ECC;
+            animation: prixClipFix 2s linear infinite;
+        }
+
+        .loader::after {
+            inset: 8px;
+            transform: rotate3d(90, 90, 0, 180deg);
+            border-color: var(--theme-color);
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        @keyframes prixClipFix {
+            0% {
+                clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0)
+            }
+
+            50% {
+                clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0)
+            }
+
+            75%,
+            100% {
+                clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%)
+            }
+        }
+
+
+
+      .product-card .card-img a img{
+        /* max-width: 100% !important;
+        height: calc(130px + (240 - 130) * ((100vw - 320px) / (1920 - 320))) !important; */
+      }
+
+      /* ::-webkit-scrollbar{
+        width: 5px;
+      }
+      ::-webkit-scrollbar-track{
+        background: var(--second-color);
+      }
+      ::-webkit-scrollbar-thumb{
+        background-color: var(--theme-color);
+        border-radius: 5px;
+      } */
+
+        #social-links ul{
+            display: flex;
+        }
+        #social-links{
+            padding: 5px
+        }
+        .social-button {
+            margin-right: 5px
+        }
+        .social-button span{
+            position: absolute;
+            right: 50%;
+            top: 50%;
+            transform: translateX(50%) translateY(-50%);
+        }
+        .social-button:hover{
+            background: var(--theme-color);
+            color: var(--white)
+        }
+        /* .mobile-menu-bar-header .top .login-mobile a{
+            display: inline;
+        } */
+
+        .mobile-menu-bar ul{
+            /* display: block;
+            width: 90%;
+            margin: auto; */
+        }
+        .mobile-menu-bar span{
+            border-top: 5px solid #eee;
+            display: block;
+            font-weight: 400;
+            padding: 5px 15px!important;
+            width: 100%;
+            font-weight: 700;
+            text-align: center;
+            color: #000;
+        }
+        .mobile-menu-bar span i{
+            display: inline-block;
+            font-size: 16px;
+            height: auto;
+            line-height: 1;
+            margin-left: 10px;
+            color: #eee;
+        }
+        /* .mobile-menu-bar ul li{
+            border-radius: 30px;
+            margin: 10px auto;
+            border-bottom: 1px solid #f8f8f8;
+            display: block!important;
+            position: relative;
+        }
+        .mobile-menu-bar ul a{
+            color: #fff!important;
+            background: var(--theme-color);
+            border-radius: 30px;
+            font-size: 15px!important;
+            min-height: 40px;
+            padding: 5px 15px!important;
+        } */
+        .login-mobile{
+            font-weight: 700;
+            color: #000!important;
+            font-size: 12px;
+            margin: 15px auto 0;
+        }
+        .menu-close-icon svg{
+            fill: var(--theme-color);
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://doin9.com/assets/plugins/soical-chat/czm-chat-support.css">
+</head>
+
+<body class="theme1-v1">
+    <section id="loading">
+        <span id="loader"></span>
+    </section>
+    <div id="social-pupup"></div>
+        <!--header start here-->
+    <header class="site-header" id="site-header">
+                <div class="container" id="navbar-main">
+            <div class="main-navigationbar">
+                <div class="left-side-header">
+                    <div class="header-search">
+                        <form action="https://doin9.com/store-online-alashwl/categorie/Start%20shopping"
+                            method="get">
+                            <input type="hidden" name="_token" value="ldjArXWiuXbxPT2asc17EkNqRtZjR0ygByi4yiRJ">                            <input type="text" name="search_data" placeholder="ابحث عن منتج ...">
+                            <button type="submit" class="search-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                    viewBox="0 0 13 13" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.47487 10.5131C8.48031 11.2863 7.23058 11.7466 5.87332 11.7466C2.62957 11.7466 0 9.11706 0 5.87332C0 2.62957 2.62957 0 5.87332 0C9.11706 0 11.7466 2.62957 11.7466 5.87332C11.7466 7.23058 11.2863 8.48031 10.5131 9.47487L12.785 11.7465C13.0717 12.0332 13.0717 12.4981 12.785 12.7848C12.4983 13.0715 12.0334 13.0715 11.7467 12.7848L9.47487 10.5131ZM10.2783 5.87332C10.2783 8.30612 8.30612 10.2783 5.87332 10.2783C3.44051 10.2783 1.46833 8.30612 1.46833 5.87332C1.46833 3.44051 3.44051 1.46833 5.87332 1.46833C8.30612 1.46833 10.2783 3.44051 10.2783 5.87332Z"
+                                        fill="#545454"></path>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <div class="header-account">
+                        <ul>
+                                                            <li class="login-btn-header has-children login-btn-header-2">
+                                    <a href="https://doin9.com/store-online-alashwl/customer-login" class="acnav-label">
+                                        <i class="fas fa-user"></i>
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+                <div class="center-side-header">
+                                       <div class="logo-col">
+                        <a href="https://doin9.com/store-online-alashwl/home">
+                            <img class="store-logo"
+                                src="https://doin9.com/storage/uploads/store_logo/20231226163953_1703598162png?timestamp=1707744218"
+                                style="height: 70px;" id="navbar-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="right-side-header">
+                    <div class="main-nav">
+                        
+                    </div>
+                    <div class="main-menu-right">
+                        <ul class="menu-right d-flex  justify-content-end align-items-center" style="flex-wrap: nowrap;">
+                            <li class="search-header">
+                                <a href="javascript:;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                                        viewBox="0 0 13 13" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9.47487 10.5131C8.48031 11.2863 7.23058 11.7466 5.87332 11.7466C2.62957 11.7466 0 9.11706 0 5.87332C0 2.62957 2.62957 0 5.87332 0C9.11706 0 11.7466 2.62957 11.7466 5.87332C11.7466 7.23058 11.2863 8.48031 10.5131 9.47487L12.785 11.7465C13.0717 12.0332 13.0717 12.4981 12.785 12.7848C12.4983 13.0715 12.0334 13.0715 11.7467 12.7848L9.47487 10.5131ZM10.2783 5.87332C10.2783 8.30612 8.30612 10.2783 5.87332 10.2783C3.44051 10.2783 1.46833 8.30612 1.46833 5.87332C1.46833 3.44051 3.44051 1.46833 5.87332 1.46833C8.30612 1.46833 10.2783 3.44051 10.2783 5.87332Z"
+                                            fill="#545454"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            
+
+                            <li class="cart-header" id="cart-header">
+                                <a href="https://doin9.com/user-cart-item/store-online-alashwl/cart">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span class="count shoping_counts"
+                                        id="shoping_counts">0</span>
+                                </a>
+                            </li>
+
+                                                            <li class="login-btn-header  has-children">
+                                    <a href="https://doin9.com/store-online-alashwl/customer-login" class="acnav-label">
+                                        <i class="fas fa-user"></i>
+                                    </a>
+                                </li>
+                                                        <!--<li class="language-header set has-children has-item" style="none;">-->
+                            <!--    <a href="#" class="acnav-label" data-toggle="dropdown" aria-haspopup="true"-->
+                            <!--        aria-expanded="false">-->
+                            <!--        <i class="fas fa-language"></i>-->
+                            <!--        <span class="select">Arabic</span>-->
+                            <!--    </a>-->
+                            <!--    <div class="menu-dropdown acnav-list">-->
+                            <!--        <ul>-->
+                            <!--            -->
+                            <!--                <li><a href="https://doin9.com/change-language-store/store-online-alashwl/ar"-->
+                            <!--                        class=" active-language text-primary ">Arabic</a>-->
+                            <!--                </li>-->
+                            <!--            -->
+                            <!--                <li><a href="https://doin9.com/change-language-store/store-online-alashwl/en"-->
+                            <!--                        class="">English</a>-->
+                            <!--                </li>-->
+                            <!--            -->
+                            <!--        </ul>-->
+                            <!--    </div>-->
+                            <!--</li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-menu mobile-only">
+                    <button class="mobile-menu-button" id="menu">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </button>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </header>
+    <div class="sub-nav" id="sub-nav">
+        <div class="container  d-flex justify-content-center">
+
+            
+            <ul>
+
+                                                                                    <li id="354" class="category-item mx-3 ">
+                            <a href="https://doin9.com/store-online-alashwl/categorie/HYUNDAI">
+                                HYUNDAI
+                            </a>
+
+                            <ul class="sub-items">
+                                                                                                                                </ul>
+
+                            <script>
+                                var cat = "";
+                                var id = "354";
+
+                                if (cat == 1){
+                                    $('#'+id+'').addClass('has-children');
+                                }
+                            </script>
+
+                        </li>
+                                    
+                
+                
+
+                
+            </ul>
+
+        </div>
+    </div>
+    <div></div>
+        <div class="wrapper">
+                            
+                            
+                <section class="main-home-first-section"
+                    style="background-image:url(https://doin9.com/storage/uploads/theme1/header/202312261638562312261703603477png) ">
+                    <div class="container">
+                        <div class="banner-content">
+                            <h1>الأشــول</h1>
+                            <p>للألكترونيات الذكية</p>
+                                                            <a href="#" class="btn" id="pro_scroll">
+                                    تسوق
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 492.004 492.004"
+                                        xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                                                    </div>
+                    </div>
+                </section>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                    
+        
+
+
+        <!-- Products -->
+
+                    <section class="bestseller-section tabs-wrapper padding-bottom" style="margin-top: 34px;" id="pro_items">
+                <div class="container">
+                    <div class="bestseller-title">
+                        <h2>منتجات</h2>
+                        <div dir="rtl" class="tab-bar category-swiper swiper">
+                            <div class="arr">
+                                <div class="swiper-button-next d-none d-md-flex"></div>
+                                <div class="swiper-button-prev d-none d-md-flex"></div>
+                            </div>
+                            <ul class="cat-tab tabs swiper-wrapper">
+
+                                                                    <li class="tab-link swiper-slide active"
+                                        data-tab="tab-Start_shopping">
+                                        <a href="##">
+                                            ابدأ التسوق
+                                        </a>
+                                    </li>
+                                                                    <li class="tab-link swiper-slide "
+                                        data-tab="tab-HYUNDAI">
+                                        <a href="##">
+                                            HYUNDAI
+                                        </a>
+                                    </li>
+                                                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="tabs-container">
+                                                    <div class="tab-content active show"
+                                id="tab-Start_shopping">
+                                                                    <div class="row">
+                                                                                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                                                <div class="product-card">
+                                                    <div class="card-img">
+                                                        <a
+                                                            href="https://doin9.com/store-online-alashwl/product/2312">
+                                                                                                                            <img
+                                                                    src="https://doin9.com/storage/uploads/is_cover_image/م_1703599589.jpg" alt="">
+                                                                                                                    </a>
+                                                        
+                                                                                                                    <a class="heart-icon action-item wishlist-icon bg-light-gray add_to_wishlist wishlist_2312"
+                                                                data-id="2312">
+                                                                <i class="far fa-heart"></i>
+                                                            </a>
+                                                                                                                
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="rating">
+                                                                                                                                                                                                                                                                    <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                    </div>
+                                                        <h6>
+                                                            <a
+                                                                href="https://doin9.com/store-online-alashwl/product/2312">سخان ومزيل للضباب وقت المطر والبرد</a>
+                                                        </h6>
+                                                        <p><span
+                                                                class="td-gray">صنف:</span>HYUNDAI
+                                                        </p>
+
+                                                        <div class="last-btn">
+                                                            <div class="price">
+                                                                <ins>
+                                                                                                                                                                                                                ريال17,500
+                                                                                                                                    </ins>
+                                                            </div>
+                                                                                                                            <a data-id="2312"
+                                                                    class="cart-btn add_to_cart"> <i
+                                                                        class="fas fa-shopping-basket"></i></a>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                                                <div class="product-card">
+                                                    <div class="card-img">
+                                                        <a
+                                                            href="https://doin9.com/store-online-alashwl/product/2311">
+                                                                                                                            <img
+                                                                    src="https://doin9.com/storage/uploads/is_cover_image/ق_1703599981.jpg" alt="undefined">
+                                                                                                                    </a>
+                                                        
+                                                                                                                    <a class="heart-icon action-item wishlist-icon bg-light-gray add_to_wishlist wishlist_2311"
+                                                                data-id="2311">
+                                                                <i class="far fa-heart"></i>
+                                                            </a>
+                                                                                                                
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="rating">
+                                                                                                                                                                                                                                                                    <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                    </div>
+                                                        <h6>
+                                                            <a
+                                                                href="https://doin9.com/store-online-alashwl/product/2311">مقص كهربائي قابل للشحن</a>
+                                                        </h6>
+                                                        <p><span
+                                                                class="td-gray">صنف:</span>HYUNDAI
+                                                        </p>
+
+                                                        <div class="last-btn">
+                                                            <div class="price">
+                                                                <ins>
+                                                                                                                                                                                                                ريال23,500
+                                                                                                                                    </ins>
+                                                            </div>
+                                                                                                                            <a data-id="2311"
+                                                                    class="cart-btn add_to_cart"> <i
+                                                                        class="fas fa-shopping-basket"></i></a>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                                                <div class="product-card">
+                                                    <div class="card-img">
+                                                        <a
+                                                            href="https://doin9.com/store-online-alashwl/product/2310">
+                                                                                                                            <img
+                                                                    src="https://doin9.com/storage/uploads/is_cover_image/ك_1703600413.jpg" alt="undefined">
+                                                                                                                    </a>
+                                                        
+                                                                                                                    <a class="heart-icon action-item wishlist-icon bg-light-gray add_to_wishlist wishlist_2310"
+                                                                data-id="2310">
+                                                                <i class="far fa-heart"></i>
+                                                            </a>
+                                                                                                                
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="rating">
+                                                                                                                                                                                                                                                                    <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                    </div>
+                                                        <h6>
+                                                            <a
+                                                                href="https://doin9.com/store-online-alashwl/product/2310">كوب تبريد وتسخين المشروبات</a>
+                                                        </h6>
+                                                        <p><span
+                                                                class="td-gray">صنف:</span>HYUNDAI
+                                                        </p>
+
+                                                        <div class="last-btn">
+                                                            <div class="price">
+                                                                <ins>
+                                                                                                                                                                                                                ريال17,500
+                                                                                                                                    </ins>
+                                                            </div>
+                                                                                                                            <a data-id="2310"
+                                                                    class="cart-btn add_to_cart"> <i
+                                                                        class="fas fa-shopping-basket"></i></a>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                            </div>
+                                
+                            </div>
+                                                    <div class="tab-content "
+                                id="tab-HYUNDAI">
+                                                                    <div class="row">
+                                                                                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                                                <div class="product-card">
+                                                    <div class="card-img">
+                                                        <a
+                                                            href="https://doin9.com/store-online-alashwl/product/2312">
+                                                                                                                            <img
+                                                                    src="https://doin9.com/storage/uploads/is_cover_image/م_1703599589.jpg" alt="">
+                                                                                                                    </a>
+                                                        
+                                                                                                                    <a class="heart-icon action-item wishlist-icon bg-light-gray add_to_wishlist wishlist_2312"
+                                                                data-id="2312">
+                                                                <i class="far fa-heart"></i>
+                                                            </a>
+                                                                                                                
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="rating">
+                                                                                                                                                                                                                                                                    <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                    </div>
+                                                        <h6>
+                                                            <a
+                                                                href="https://doin9.com/store-online-alashwl/product/2312">سخان ومزيل للضباب وقت المطر والبرد</a>
+                                                        </h6>
+                                                        <p><span
+                                                                class="td-gray">صنف:</span>HYUNDAI
+                                                        </p>
+
+                                                        <div class="last-btn">
+                                                            <div class="price">
+                                                                <ins>
+                                                                                                                                                                                                                ريال17,500
+                                                                                                                                    </ins>
+                                                            </div>
+                                                                                                                            <a data-id="2312"
+                                                                    class="cart-btn add_to_cart"> <i
+                                                                        class="fas fa-shopping-basket"></i></a>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                                                <div class="product-card">
+                                                    <div class="card-img">
+                                                        <a
+                                                            href="https://doin9.com/store-online-alashwl/product/2311">
+                                                                                                                            <img
+                                                                    src="https://doin9.com/storage/uploads/is_cover_image/ق_1703599981.jpg" alt="undefined">
+                                                                                                                    </a>
+                                                        
+                                                                                                                    <a class="heart-icon action-item wishlist-icon bg-light-gray add_to_wishlist wishlist_2311"
+                                                                data-id="2311">
+                                                                <i class="far fa-heart"></i>
+                                                            </a>
+                                                                                                                
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="rating">
+                                                                                                                                                                                                                                                                    <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                    </div>
+                                                        <h6>
+                                                            <a
+                                                                href="https://doin9.com/store-online-alashwl/product/2311">مقص كهربائي قابل للشحن</a>
+                                                        </h6>
+                                                        <p><span
+                                                                class="td-gray">صنف:</span>HYUNDAI
+                                                        </p>
+
+                                                        <div class="last-btn">
+                                                            <div class="price">
+                                                                <ins>
+                                                                                                                                                                                                                ريال23,500
+                                                                                                                                    </ins>
+                                                            </div>
+                                                                                                                            <a data-id="2311"
+                                                                    class="cart-btn add_to_cart"> <i
+                                                                        class="fas fa-shopping-basket"></i></a>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                                                <div class="product-card">
+                                                    <div class="card-img">
+                                                        <a
+                                                            href="https://doin9.com/store-online-alashwl/product/2310">
+                                                                                                                            <img
+                                                                    src="https://doin9.com/storage/uploads/is_cover_image/ك_1703600413.jpg" alt="undefined">
+                                                                                                                    </a>
+                                                        
+                                                                                                                    <a class="heart-icon action-item wishlist-icon bg-light-gray add_to_wishlist wishlist_2310"
+                                                                data-id="2310">
+                                                                <i class="far fa-heart"></i>
+                                                            </a>
+                                                                                                                
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="rating">
+                                                                                                                                                                                                                                                                    <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                                        <i class="star fas fa-star "></i>
+                                                                                                                                                                                    </div>
+                                                        <h6>
+                                                            <a
+                                                                href="https://doin9.com/store-online-alashwl/product/2310">كوب تبريد وتسخين المشروبات</a>
+                                                        </h6>
+                                                        <p><span
+                                                                class="td-gray">صنف:</span>HYUNDAI
+                                                        </p>
+
+                                                        <div class="last-btn">
+                                                            <div class="price">
+                                                                <ins>
+                                                                                                                                                                                                                ريال17,500
+                                                                                                                                    </ins>
+                                                            </div>
+                                                                                                                            <a data-id="2310"
+                                                                    class="cart-btn add_to_cart"> <i
+                                                                        class="fas fa-shopping-basket"></i></a>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                            </div>
+                                
+                            </div>
+                                            </div>
+                </div>
+            </section>
+                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+        <section class="client-logo">
+            <div class="container">
+                <div class="client-logo-slider">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="client-logo-itm">
+                                            <a href="#">
+                                                <img src="https://doin9.com/storage/uploads/theme1/header/0_89_2312261703603477.png"
+                                                    alt="Footer logo">
+                                            </a>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+
+            <section class="store-distinguishes padding-top padding-bottom" style="padding:30px">
+            <div class="container">
+                
+                <div class="row">
+                                                                                                                                                                                                                                                                                                                            <div class="col-md-4 col-12">
+                                        <div class="store-feature ">
+                                            <div class="store-feature__icon">
+                                                <i class="fas fa-shipping-fast"></i>
+
+                                            </div>
+                                            <div class=" title--large title--primary">
+                                                توصيل سريع
+                                                
+                                            </div>
+                                            <p>
+                                                سرعة تجهيز الطلبات وتوصيلها خلال 2 ساعة .
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                                                    <div class="col-md-4 col-12">
+                                        <div class="store-feature ">
+                                            <div class="store-feature__icon">
+                                                <i class="fas fa-thumbs-up"></i>
+
+                                            </div>
+                                            <div class=" title--large title--primary">
+                                                ضمان
+                                                
+                                            </div>
+                                            <p>
+                                                بضاعتنا أصلية مضمونة ذات جودة فائقة .
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                                                    <div class="col-md-4 col-12">
+                                        <div class="store-feature ">
+                                            <div class="store-feature__icon">
+                                                <i class="fas fa-credit-card"></i>
+
+                                            </div>
+                                            <div class=" title--large title--primary">
+                                                طرق دفع متعددة
+                                                
+                                            </div>
+                                            <p>
+                                                ادفع عبر المحافظ الإلكترونية
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                </div>
+            </div>
+        </section>
+        
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-top">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                    <div class="col-lg-4 col-md-4 col-12 footer-link-2">
+                                        <h6>معلومات عنا</h6>
+                                        <p>
+                                            متجرك الذكي
+                                        </p>
+                                    </div>
+                                                                                                                                            <div class="col-lg-4 col-md-4 col-12 footer-link-2">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <h6>
+                                                                    روابط مهمة
+                                                                </h6>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <ul>
+                                                                                <li class="menu-link">
+                                                                                    <a
+                                                                                        href="">طرق الدفع والشحن</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <ul>
+                                                                                <li class="menu-link">
+                                                                                    <a
+                                                                                        href="https://doin9.com/page/syas-alkhsosy-740">سياسة الخصوصية</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                    
+                                                                     <div class="col-lg-2 col-md-4 col-12 footer-link-2">
+                                    <h6>المدونة</h6>
+                                    <ul>
+                                        <li class="menu-link">
+                                            <a
+                                                href="/store-blog/store-online-alashwl">المدونة </a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                                                
+                                
+                                
+                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="col-lg-2 col-md-3 col-12 footer-link-2">
+                                            <h6>تابعنا :</h6>
+                        <ul class="social-link">
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>
+                                                            <a class="social-icon" target="_blank"
+                                                                href="https://www.facebook.com/Musabalialashwal/">
+                                                                <i class='fab fa-facebook'></i>
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li>
+                                                            <a class="social-icon" target="_blank"
+                                                                href="https://www.instagram.com/masa.sm2">
+                                                                <i class='fab fa-instagram'></i>
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li>
+                                                            <a class="social-icon" target="_blank"
+                                                                href="https://wa.me/+967777106022">
+                                                                <i class='fab fa-whatsapp'></i>
+                                                            </a>
+                                                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                        </ul>
+                                    </div>
+            </div>
+            
+            <div class="row footer-bottom flex-md-row-reverse" style="margin-top: 15px; text-align: center;">
+                                    <div class="col-md-6 col-12 text-center">
+                        <ul class="row p-5 justify-content-center">
+                            <span class="text-center col" style="margin-left:2%;margin-right:2%">خدمات الدفع</span>
+                            <li class="col">
+                                <img style="width: 25px;height: 25px;"
+                                    src="https://doin9.com/assets/img/payment/cash-on-delivery.png" alt="cod">
+                            </li>
+                                                    </ul>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <p class="footer-copy-right">
+                            <a href="https://www.doin9.com">
+                                صنع بإتقان على منصة | دوينج
+                            </a>
+                        </p>
+                    </div>
+                            </div>
+        </div>
+    </footer>
+    
+    <div class="modal fade modal-popup" id="commonModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-inner lg-dialog" role="document">
+            <div class="modal-content">
+                <div class="popup-content">
+                    <div class="modal-header  popup-header align-items-center">
+                        <div class="modal-title">
+                            <h6 class="mb-0" id="modelCommanModelLabel"></h6>
+                        </div>
+                        <button type="button" class="close close-button" data-bs-dismiss="modal"
+                            aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="mask-body mask-body-home mask-body-dark"></div>
+    <div class="mobile-menu-wrapper">
+        <div class="menu-close-icon">
+            
+            <svg width="100pt" height="100pt" version="1.1" viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg" style="width: 30px;height: 30px;">
+                <path
+                    d="m50 10c-22.109 0-40 17.883-40 40 0 22.109 17.891 40 40 40 22.117 0 40-17.891 40-40 0-22.121-17.879-40-40-40zm-15.25 23c0.074219-0.003906 0.14453-0.003906 0.21875 0 0.53906-0.003906 1.0586 0.20703 1.4375 0.59375l13.594 13.562 13.562-13.562c0.36328-0.37109 0.85547-0.58203 1.375-0.59375 0.82812-0.035156 1.5938 0.44922 1.918 1.2109 0.32812 0.76562 0.14844 1.6484-0.44922 2.2266l-13.594 13.594 13.594 13.562c0.37891 0.375 0.58984 0.88672 0.58984 1.4219 0 0.53125-0.21094 1.043-0.58984 1.4219-0.375 0.375-0.88672 0.58984-1.4219 0.58984s-1.043-0.21484-1.4219-0.58984l-13.562-13.594-13.594 13.594c-0.78516 0.78516-2.0586 0.78516-2.8438 0s-0.78516-2.0586 0-2.8438l13.562-13.562-13.562-13.594c-0.56641-0.54297-0.76562-1.3633-0.50781-2.1016 0.25391-0.73828 0.91797-1.2617 1.6953-1.3359z"
+                    fill-rule="evenodd">
+                </path>
+            </svg>
+        </div>
+        <div class="mobile-menu-bar">
+            <div class="mobile-menu-bar-header" >
+                <div class="top" style="padding: 30px;">
+                                                                <a href="https://doin9.com/store-online-alashwl/home">
+                            <img src="https://doin9.com/storage/uploads/store_logo/20231226163953_1703598162png?timestamp=1707744218"
+                             id="navbar-logo" class="rounded-circle">
+                        </a>
+                                    </div>
+                <div class="login-mobile">
+                                            <a href="https://doin9.com/store-online-alashwl/customer-login">تسجيل الدخول</a>
+
+                                    </div>
+            </div>
+                        <ul>
+
+                
+
+                
+                <span>
+                    <i class="fa fa-tag"></i>
+                    فئات المنتجات
+                </span>
+                                                                                                                    <li id="mobile-354" class="menu-lnk mx-3">
+                                <a
+                                    href="https://doin9.com/store-online-alashwl/categorie/HYUNDAI">
+                                    HYUNDAI
+                                </a>
+                                <!-- sub category -->
+                                <ul class="mobile-sub-items">
+                                                                                                                                                        </ul>
+
+                                        <script>
+                                            var cat = "";
+                                            var id = "mobile-354";
+
+                                            if (cat == 1){
+                                                $('#'+id+'').addClass('has-children');
+                                            }
+                                        </script>
+                            </li>
+                                                            
+                
+                
+            </ul>
+        </div>
+    </div>
+    <div id="omnisearch" class="omnisearch">
+        <div class="serch-close-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
+                <path fill="#24272a"
+                    d="M19.95 16.75l-.05-.4-1.2-1-5.2-4.2c-.1-.05-.3-.2-.6-.5l-.7-.55c-.15-.1-.5-.45-1-1.1l-.1-.1c.2-.15.4-.35.6-.55l1.95-1.85 1.1-1c1-1 1.7-1.65 2.1-1.9l.5-.35c.4-.25.65-.45.75-.45.2-.15.45-.35.65-.6s.3-.5.3-.7l-.3-.65c-.55.2-1.2.65-2.05 1.35-.85.75-1.65 1.55-2.5 2.5-.8.9-1.6 1.65-2.4 2.3-.8.65-1.4.95-1.9 1-.15 0-1.5-1.05-4.1-3.2C3.1 2.6 1.45 1.2.7.55L.45.1c-.1.05-.2.15-.3.3C.05.55 0 .7 0 .85l.05.35.05.4 1.2 1 5.2 4.15c.1.05.3.2.6.5l.7.6c.15.1.5.45 1 1.1l.1.1c-.2.15-.4.35-.6.55l-1.95 1.85-1.1 1c-1 1-1.7 1.65-2.1 1.9l-.5.35c-.4.25-.65.45-.75.45-.25.15-.45.35-.65.6-.15.3-.25.55-.25.75l.3.65c.55-.2 1.2-.65 2.05-1.35.85-.75 1.65-1.55 2.5-2.5.8-.9 1.6-1.65 2.4-2.3.8-.65 1.4-.95 1.9-1 .15 0 1.5 1.05 4.1 3.2 2.6 2.15 4.3 3.55 5.05 4.2l.2.45c.1-.05.2-.15.3-.3.1-.15.15-.3.15-.45z">
+                </path>
+            </svg>
+        </div>
+        <div class="container">
+            <!-- Search form -->
+            <form class="omnisearch-form"
+                action="https://doin9.com/store-online-alashwl/categorie/Start%20shopping" method="get">
+                <input type="hidden" name="_token" value="ldjArXWiuXbxPT2asc17EkNqRtZjR0ygByi4yiRJ">                <input type="hidden" name="_token" value="">
+                <div class="form-group focused">
+                    <div class="input-group input-group-merge input-group-flush">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                        </div>
+                        <input type="text" name="search_data" class="form-control form-control-flush"
+                            placeholder="Type your product...">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="modal-popup top-center" id="Checkout">
+        <div class="modal-dialog-inner modal-md">
+            <div class="popup-content">
+                <div class="popup-header">
+                    <h4>انمام عملية الشراء كضيف أو تسجيل الدخول</h4>
+                    <div class="close-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+                            fill="none">
+                            <path
+                                d="M27.7618 25.0008L49.4275 3.33503C50.1903 2.57224 50.1903 1.33552 49.4275 0.572826C48.6647 -0.189868 47.428 -0.189965 46.6653 0.572826L24.9995 22.2386L3.33381 0.572826C2.57102 -0.189965 1.3343 -0.189965 0.571605 0.572826C-0.191089 1.33562 -0.191186 2.57233 0.571605 3.33503L22.2373 25.0007L0.571605 46.6665C-0.191186 47.4293 -0.191186 48.666 0.571605 49.4287C0.952952 49.81 1.45285 50.0007 1.95275 50.0007C2.45266 50.0007 2.95246 49.81 3.3339 49.4287L24.9995 27.763L46.6652 49.4287C47.0465 49.81 47.5464 50.0007 48.0463 50.0007C48.5462 50.0007 49.046 49.81 49.4275 49.4287C50.1903 48.6659 50.1903 47.4292 49.4275 46.6665L27.7618 25.0008Z"
+                                fill="white"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="btn-group checkout-btns">
+                        <a href="https://doin9.com/store-online-alashwl/customer-login"
+                            class="btn">المتابعة بتسجيل الدخول</a>
+                        <a href="https://doin9.com/store-online-alashwl/useraddress"
+                            class="btn">المتابعة كضيف</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <link rel='stylesheet' href='https://doin9.com/css/cookieconsent.css' media="screen" />
+<script src="https://doin9.com/js/cookieconsent.js"></script>
+<script>
+    let language_code = document.documentElement.getAttribute('lang');
+    let languages = {};
+    languages[language_code] = {
+        consent_modal: {
+            title: 'hello',
+            description: 'description',
+            primary_btn: {
+                text: 'primary_btn text',
+                role: 'accept_all'
+            },
+            secondary_btn: {
+                        text: 'secondary_btn text',
+                        role: 'accept_necessary'
+                    }
+                },
+                settings_modal: {
+                    title: 'settings_modal',
+                    save_settings_btn: 'save_settings_btn',
+                    accept_all_btn: 'accept_all_btn',
+                    reject_all_btn: 'reject_all_btn',
+                    close_btn_label: 'close_btn_label',
+                    blocks: [{
+                            title: 'block title',
+                            description: 'block description'
+                        },
+
+                        {
+                            title: 'title',
+                            description: 'description',
+                            toggle: {
+                                value: 'necessary',
+                                enabled: true,
+                                readonly: false
+                            }
+                        },
+                    ]
+                }
+            };
+            </script>
+        <script>
+            function setCookie(cname, cvalue, exdays) {
+                const d = new Date();
+                d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                let expires = "expires=" + d.toUTCString();
+                document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+            }
+            
+            function getCookie(cname) {
+                let name = cname + "=";
+                let decodedCookie = decodeURIComponent(document.cookie);
+                let ca = decodedCookie.split(';');
+                for (let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+            
+            
+            // obtain plugin
+            var cc = initCookieConsent();
+            // run plugin with your configuration
+            cc.run({
+                current_lang: 'en',
+                autoclear_cookies: true, // default: false
+                page_scripts: true,
+                // ...
+                gui_options: {
+                    consent_modal: {
+                        layout: 'cloud', // box/cloud/bar
+                        position: 'bottom center', // bottom/middle/top + left/right/center
+                        transition: 'slide', // zoom/slide
+                        swap_buttons: false // enable to invert buttons
+                    },
+                    settings_modal: {
+                        layout: 'box', // box/bar
+                        // position: 'left',           // left/right
+                        transition: 'slide' // zoom/slide
+                    }
+                },
+               
+                onChange: function(cookie, changed_preferences) {},
+                onAccept: function(cookie) {
+                    if (!getCookie('cookie_consent_logged')) {
+                        var cookie = cookie.level;
+                        $.ajax({
+                            url: 'https://doin9.com/cookie-consent',
+                            datType: 'json',
+                            data: {
+                                cookie: cookie,
+                            },
+                        })
+                        setCookie('cookie_consent_logged', '1', 182, '/');
+                    }
+                },
+                
+                languages: {
+                    'en': {
+                        consent_modal: {
+                            title: "We use cookies!",
+                            description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it.. <button type="button" data-cc="c-settings" class="cc-link">دعني اختار</button>',
+                            primary_btn: {
+                                text: 'Accept all',
+                                role: 'accept_all' // 'accept_selected' or 'accept_all'
+                            },
+                            secondary_btn: {
+                                text: 'Reject all',
+                                role: 'accept_necessary' // 'settings' or 'accept_necessary'
+                            },
+                        },
+                        settings_modal: {
+                            title: 'Cookie preferences',
+                            save_settings_btn: 'Save settings',
+                            accept_all_btn: 'Accept all',
+                            reject_all_btn: 'Reject all',
+                            close_btn_label: 'Close',
+                            cookie_table_headers: [{
+                                col1: 'Name'
+                            },
+                            {
+                                col2: 'Domain'
+                                },
+                                {
+                                    col3: 'Expiration'
+                                },
+                                {
+                                    col4: 'Description'
+                                }
+                            ],
+                            blocks: [{
+                                title: 'We use cookies!',
+                                description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it.',
+                            }, {
+                                title: 'Strictly necessary cookies',
+                                description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
+                                toggle: {
+                                    value: 'necessary',
+                                    enabled: true,
+                                    readonly: true // cookie categories with readonly=true are all treated as "necessary cookies"
+                                }
+                            }, {
+                                title: 'More information',
+                                description: 'For any queries in relation to our policy on cookies and your choices, please contact us <a class="cc-link" href="#">contact us</a>.',
+                            }]
+                        }
+                    }
+                }
+                
+            });
+        </script>        <!--scripts start here-->
+
+    
+    
+    <script src="https://doin9.com/custom/js/jquery.min.js"></script>
+    <script src="https://doin9.com/assets/js/plugins/bootstrap.min.js"></script>
+    <script src="https://doin9.com/custom/js/jquery.dataTables.min.js"></script>
+    <script src="https://doin9.com/assets/theme1/js/slick.min.js" defer="defer"></script>
+    <script src="https://doin9.com/custom/libs/bootstrap-notify/bootstrap-notify.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://doin9.com/assets/plugins/soical-chat/moment/moment.min.js"></script>
+    <script src="https://doin9.com/assets/plugins/soical-chat/moment/moment-timezone-with-data.min.js"></script>
+    <script src="https://doin9.com/assets/plugins/soical-chat/czm-chat-support.min.js"></script>
+    
+                <script src="https://doin9.com/assets/theme1/js/rtl-custom.js"></script>
+        <script>
+        var dataTabelLang = {
+            paginate: {
+                previous: "Previous",
+                next: "Next"
+            },
+            lengthMenu: "Show MENU entries",
+            zeroRecords: "No data available in table",
+            info: "Showing START to END of TOTAL entries",
+            infoEmpty: " ",
+            search: "Search:"
+        }
+    </script>
+    <script src="https://doin9.com/custom/js/custom.js"></script>
+
+    
+        <script>
+        $(".add_to_cart").click(function(e) {
+            e.preventDefault();
+            var id = $(this).attr('data-id');
+            var variants = [];
+            $(".variant-selection").each(function(index, element) {
+                variants.push(element.value);
+            });
+
+            if (jQuery.inArray('', variants) != -1) {
+                show_toastr('Error', "الرجاء تحديد كل الخيارات.", 'error');
+                return false;
+            }
+            var variation_ids = $('#variant_id').val();
+
+            $.ajax({
+                url: 'https://doin9.com/add-to-cart/__product_id/store-online-alashwl/variation_id'
+                    .replace(
+                        '__product_id', id).replace('variation_id', variation_ids ?? 0),
+                type: "POST",
+                data: {
+                    "_token": "ldjArXWiuXbxPT2asc17EkNqRtZjR0ygByi4yiRJ",
+                    variants: variants.join(' : '),
+                },
+                success: function(response) {
+                    if (response.status == "Success") {
+                        show_toastr('Success', response.success, 'success');
+                        $("#shoping_counts").html(response.item_count);
+                    } else {
+                        show_toastr('Error', response.error, 'error');
+                    }
+                },
+                error: function(result) {
+                    console.log('error');
+                }
+            });
+        });
+
+        $(document).on('click', '.add_to_wishlist', function(e) {
+            e.preventDefault();
+            var id = $(this).attr('data-id');
+            $.ajax({
+                type: "POST",
+                url: 'https://doin9.com/store/store-online-alashwl/addtowishlist/__product_id'.replace(
+                    '__product_id', id),
+                data: {
+                    "_token": "ldjArXWiuXbxPT2asc17EkNqRtZjR0ygByi4yiRJ",
+                },
+
+                success: function(response) {
+                    if (response.status == "Success") {
+                        show_toastr('Success', response.message, 'success');
+                        $('.wishlist_' + response.id).removeClass('add_to_wishlist');
+                        $('.wishlist_' + response.id).html('<i class="fas fa-heart"></i>');
+                        $('.wishlist_count').html(response.count);
+                    } else {
+                        show_toastr('Error', response.error, 'error');
+                    }
+                },
+                error: function(result) {}
+            });
+        });
+        $(".productTab").click(function(e) {
+            e.preventDefault();
+            $('.productTab').removeClass('active')
+
+        });
+
+        $("#pro_scroll").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#pro_items").offset().top
+            }, 1000);
+        });
+    </script>
+            
+    <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+    
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', '');
+    </script>
+
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '');
+        fbq('track', 'PageView');
+    </script>
+
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=0000&ev=PageView&noscript=" /></noscript>
+    <script type="text/javascript">
+        $(function() {
+            $(".drop-down__button ").on("click", function(e) {
+                $(".drop-down").addClass("drop-down--active");
+                e.stopPropagation()
+            });
+            $(document).on("click", function(e) {
+                if ($(e.target).is(".drop-down") === false) {
+                    $(".drop-down").removeClass("drop-down--active");
+                }
+            });
+        });
+        var headerHeight = document.getElementById("site-header").offsetHeight;
+        // Set the margin top of the sub-nav section to the header height.
+        if ($(window).width() < 997) {
+            $('.wrapper').css('margin-top', headerHeight + 'px');
+        } else {
+            document.getElementById("sub-nav").style.marginTop = headerHeight + "px";
+        }
+        // $('.menu-lnk').on('click',function(){
+        //     alert('s');
+        //     $(this).('.mobile-sub-items').addClass('active');
+        // });
+        $(".has-children").on("click", function(e) {
+            if($(this).children("ul").hasClass('active')){
+                $(this).children("ul").removeClass('active');
+                $(this).removeClass('rotate');
+            }else{
+                $(this).children("ul").addClass('active');
+                $(this).addClass('rotate');
+            }
+            });
+        // start swiper script
+        const swiper = new Swiper('.category-swiper', {
+
+            breakpoints: {
+                320: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                640: {
+                    slidesPerView: 4,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 6,
+                    spaceBetween: 10,
+
+
+                },
+                1024: {
+                    slidesPerView: 10,
+                    spaceBetween: 10,
+                }
+            },
+            initialSlide: 0,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        // end swiper script
+    </script>
+    <!--scripts end here-->
+    
+    
+
+   <!--<script>-->
+
+   <!--     function phone_format() {-->
+   <!--         var phone = document.getElementById("phone_number");-->
+
+   <!--         var num = phone.value.replace(/\D/g, "");-->
+   <!--         if (num != '')-->
+   <!--         {-->
+   <!--             phone.value = '967'+num ;-->
+   <!--         }-->
+         
+   <!--     };-->
+
+   <!-- </script>-->
+
+    </body>
+
+</html>
